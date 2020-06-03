@@ -1,0 +1,247 @@
+#con2{
+    width: 100%;
+    background: url(../img/visual2.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.8s;
+}
+
+#con2>.base{
+    width: 80%;
+    height: 70%;
+    background: url(../img/con2-1.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#con2>.base>.profil{
+    width: 85%;
+    height: 86%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#con2>.base>.profil>div{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 60px;
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#con2>.base>.profil>div.on{
+    display: block;
+}
+
+#con2>.base>.profil>.profil_line{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#con2>.base>.profil>.profil_line>.top {
+    width: 0%;
+    height: 2px;
+    background-color: #640000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#con2>.base>.profil>.profil_line>.right {
+    width: 2px;
+    height: 0%;
+    background-color: #640000;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#con2>.base>.profil>.profil_line>.bottom {
+    width: 0%;
+    height: 2px;
+    background-color: #640000;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#con2>.base>.profil>.profil_line>.left {
+    width: 2px;
+    height: 0%;
+    background-color: #640000;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#con2>.base>.profil>.profilbox>.profilimg{
+    float: left;
+    width: 45%;
+    height: 100%;
+    margin-right: 30px;
+}
+
+#con2>.base>.profil>.profilbox>.profiltext{
+    float: left;
+    width: 49%;
+    height: 100%;
+    padding: 0 0 3% 3%;
+    position: relative;
+    color: #000;
+    box-sizing: border-box;
+}
+
+#con2>.base>.profil>.profilbox>.profiltext>h4{
+    font-family: 'Amiri', serif;
+    text-align: center;
+    color: #640000;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#con2>.base>.profil>.profilbox>.profiltext>h6{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+#con2>.base>.profil>.profilbox>.profiltext>h5{
+    font-family: 'Amiri', serif;
+    color: #640000;
+    font-size: 3rem;
+    margin-bottom: -10px;
+}
+
+#con2>.base>.profil>.profilbox>.profiltext>p{
+    margin-bottom: 25px;
+}
+
+#con2>.base>.profil>.profilbox>.profiltext>table{
+    width: 60%;
+}
+
+#con2>.base>.profil>.profilbox>.con2_x{
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #640000;
+    font-family: 'Amiri', serif;
+    color: #640000;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+
+#con2>.base>.profil>.profilbox:nth-of-type(1)>.profilimg{
+    background: url(../img/profil1.jpg) no-repeat top;
+    background-size: cover;
+}
+
+#con2>.base>.profil>.profilbox:nth-of-type(2)>.profilimg{
+    background: url(../img/profil2.jpg) no-repeat top;
+    background-size: cover;
+}
+
+#con2>.base>.profil>.profilbox:nth-of-type(3)>.profilimg{
+    background: url(../img/profil3.jpg) no-repeat top;
+    background-size: cover;
+}
+
+#con2>.base>.profil>.profilbox:nth-of-type(4)>.profilimg{
+    background: url(../img/profil4.png) no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+#con2>.base>.profil>.con2_btn{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+#con2>.base>.profil>.con2_btn>li:nth-of-type(1){
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+#con2>.base>.profil>.con2_btn>li:nth-of-type(2){
+    position: absolute;
+    top: 20%;
+    left: 62%;
+}
+
+#con2>.base>.profil>.con2_btn>li:nth-of-type(3){
+    position: absolute;
+    top: 20%;
+    left: 85%;
+}
+
+#con2>.base>.profil>.con2_btn>li:nth-of-type(4){
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+
+
+
+
+
+#con2>.base>.profil>.con2_btn>li {
+    position: relative;
+    width: 50px;
+    height: 44px;
+    cursor: pointer;
+}
+
+#con2>.base>.profil>.con2_btn>li span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: 0.8s;
+}
+
+#con2>.base>.profil>.con2_btn>li>a span:nth-of-type(1) {
+    transform : rotate(45deg);
+}
+
+#con2>.base>.profil>.con2_btn>li>a span:nth-of-type(2) {
+    transform : rotate(-45deg);
+}
+
+#con2>.base>.profil>.con2_btn>li:hover>a span:nth-of-type(1){
+    transform : rotate(90deg);
+}
+
+#con2>.base>.profil>.con2_btn>li:hover>a span:nth-of-type(2){
+    transform : rotate(0deg);
+}

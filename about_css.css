@@ -1,0 +1,213 @@
+body {
+    background-color:#fbfbfb;
+    background-image: linear-gradient(rgba(0,158,159,0.1) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(0,158,159,0.1) 1px, transparent 1px);
+    background-size:10px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about_wrap{
+    position: relative;
+}
+#about_main{
+    width: 100%; height: 100vh;
+    background: #1e1e1e;
+    overflow: hidden;
+}
+.about_main_box{
+    position: relative; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+#about_main .about_img{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative; left: 0; top: 100vh;
+    animation: about_img_up 1.2s .1s ease forwards;
+}
+@keyframes about_img_up{
+    0% {
+        top: 100vh;
+        transform: translateY(0) rotate(0);
+    }
+    50% {
+        top: -15px;
+    }
+    100% {
+        top: 0;
+        transform: translateY(0) rotate(-3deg);
+    }
+}
+
+#about_main .about_main_txt{
+    font-size: 95px;
+    color:#009e9f;
+    font-weight: 900;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 95px;
+}
+#about_main .about_main_txt p{
+    overflow: hidden;
+}
+#about_main .about_main_txt p span{
+    position: relative; left: 0; top: 100px;
+}
+#about_main .about_main_txt p:nth-child(1) span{
+    transition: .5s all ease-in-out;
+}
+#about_main .about_main_txt p:nth-child(2) span{
+    transition: .5s .2s all ease-in-out;
+}
+#about_main .about_main_txt p:nth-child(3) span{
+    transition: .5s .4s all ease-in-out;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 65px;
+    font-weight: bold;
+    color:#009e9f;
+    margin-bottom: 50px;
+}
+.title .highlight{
+    color:#fff;
+    position: relative;
+    margin-right: 18px;
+}
+.title .highlight:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 13px;
+    width: 100%;
+    height: 55px;
+    background: #009e9f;
+    z-index: -1;
+}
+.sub_title{
+    font-weight: bold;
+    color:#009e9f;
+    font-size: 20px;
+    border-bottom: 1px solid #009e9f;
+    padding-bottom: 15px;
+}
+.sub_box {
+    margin-top: 16px;
+}
+.sub_box ul{
+    float: left;
+}
+.sub_box ul li{
+    padding-bottom: 10px;
+}
+#about_me .sub_box .sub_bold li:nth-child(3){
+    padding-bottom: 27px;
+}
+.sub_content{
+    font-size: 14px;
+    color: #333;
+}
+.sub_bold{
+    font-weight: bold;
+    color:#009e9f;
+    font-size: 15px;
+    margin-right: 18px;
+}
+.sub_content ul li{
+    font-size: 12px;
+    margin-top: -6px;
+    color: #b7b7b7;
+}
+
+#about_me{
+    margin-top: 110px;
+    overflow: hidden;
+}
+#about_me .article{
+    width: calc((100% - 80px) / 3);
+    float: left;
+    margin-right: 40px;
+}
+#about_me .article:last-child{
+    margin-right: 0;
+}
+
+#about_me .article:last-child .sub_box ul li{
+    font-size: 12.5px;
+}
+
+#about_me .article:last-child .sub_box .sub_bold li:nth-of-type(1){
+    font-size: 11.5px;
+    padding-bottom: 27px;
+}
+#about_me .article:last-child .sub_box .sub_bold li:nth-of-type(2){
+    font-size: 11.5px;
+    padding-bottom: 27px;
+}
+#about_me .article:last-child .sub_box .sub_bold li:nth-of-type(3){
+    font-size: 11.5px;
+    padding-bottom: 27px;
+}
+
+#about_me .article:last-child .sub_box .sub_content li{
+    font-size: 11.5px;
+}
+
+#my_skill{
+    margin-top: 110px;
+    overflow: hidden;
+}
+.skill li {
+    position: relative;
+    float: left;
+    width: calc((100% - 50px * 5) / 6);
+    padding-right: 50px;
+    text-align: center;
+}
+.skill li:last-child{
+    padding-right: 0;
+}
+.skill li .count {
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    width: 135px;
+    height: 135px;
+    line-height: 135px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    text-align: center;
+}
+.skill li .pie {
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    margin-left: -98px;
+}
+.skill li:last-child .pie{
+    margin-left: -76px;
+}
+.skill li h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    color: #333;
+    margin-top: 25px;
+}
+
+#contact_me{
+    margin-top: 120px;
+    margin-bottom: 110px;
+}
+.contact ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+.contact ul li p{
+    display: inline-block;
+}

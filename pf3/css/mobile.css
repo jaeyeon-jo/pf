@@ -1,0 +1,122 @@
+@media(max-width:576px){
+    #header>.util{
+        display: none;
+    }
+
+    #header>#gnb{
+        display: none;
+    }
+
+    #header>.logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #header>.search{
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+    }
+
+
+
+    #header>a{
+        display: block;
+    }
+
+
+
+    #visual>.textbox{
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+
+
+    #contents>div>h1::after{
+        width: 50%;
+    }
+
+
+
+   #contents>.con1>.notice{
+       width: 100%;
+       margin-bottom: 10px;
+   }
+
+   #contents>.con1>.event{
+       width: 100%;
+       margin-right: 2%;
+   }
+
+   #contents>.con1>.magazine{
+       width: 100%;
+   }
+
+
+
+
+
+   #contents>.con2>.con2_box1{
+    width: 100%;
+    margin-bottom: 10px;
+   }
+
+   #contents>.con2>.con2_box2{
+    width: 100%;
+    margin-bottom: 10px;
+   }
+
+   #contents>.con2>.con2_btn{
+       position: absolute;
+       top: 54%;
+       left: 50%;
+   }
+
+   #contents>.con2>.con2_btn>.prev{
+       margin: 0 auto;
+   }
+
+   #contents>.con2>.con2_btn>.next{
+       margin: 0 auto;
+}
+
+
+
+   #contents>.con3{
+       display: none;
+   }
+
+
+
+
+   #contents>.con4>.con4_box1{
+       display: none;
+   }
+
+   #contents>.con4>.con4_box3{
+       width: 100%;
+   }
+
+
+
+
+   #contents>.con5{
+       display: none;
+   }
+
+
+
+
+   #footer>div{
+       width: 100%;
+       margin-bottom: 10px;
+   }
+
+}

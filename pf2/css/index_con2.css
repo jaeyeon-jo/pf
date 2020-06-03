@@ -1,0 +1,311 @@
+#wrap>div h3{
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+}
+
+#wrap>div h3::after{
+    display: block;
+    content: "";
+    width: 110%;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #640000;
+}
+
+
+
+
+
+
+#wrap>.con1{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: url(../img/con1.jpg) no-repeat;
+    background-size: cover;
+    transition: 0.8s;
+}
+
+#wrap>.con1>.youtube{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 2%;
+}
+
+#wrap>.con1>.youtube>iframe{
+    float: left;
+    margin-right: 3%;
+    width: 57%;
+    height: 100%;
+}
+
+#wrap>.con1>.youtube>.textbox{
+    width: 40%;
+    float: left;
+    padding: 90px 70px 100px;
+    box-sizing: border-box;
+    /* background: rgba(255, 255, 255, 0.5); */
+    text-shadow: 0px 0px 3px #640000;
+}
+
+#wrap>.con1>.youtube>.textbox>h4{
+    font-size: 2.5rem;
+    font-family: 'Amiri', serif;
+}
+
+#wrap>.con1>.youtube>.textbox>h4>span{
+    color: #640000;
+    font-size: 5rem;
+    text-shadow: 0px 0px 5px #fff;
+    margin-right: 15px;
+}
+
+#wrap>.con1>.youtube>.textbox>h6{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: 'Amiri', serif;
+    color: #640000;
+    margin-top: -25px;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+#wrap>.con1>.youtube>.textbox>p:nth-of-type(1){
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#wrap>.con2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 200%;
+    left: 0;
+    background: url(../img/visual2.jpg) no-repeat center;
+    background-size: cover;
+    transition: 0.8s;
+}
+
+#wrap>.con2>.base{
+    width: 80%;
+    height: 70%;
+    background: url(../img/con2-1.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#wrap>.con2>.base>.con2_btn{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#wrap>.con2>.base>.con2_btn>li:nth-of-type(1){
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+#wrap>.con2>.base>.con2_btn>li:nth-of-type(2){
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+#wrap>.con2>.base>.con2_btn>li:nth-of-type(3){
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+#wrap>.con2>.base>.con2_btn>li:nth-of-type(4){
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+
+
+/* #wrap>.con2>.base>.con2_btn>li,
+#wrap>.con2>.base>.con2_btn>li span {
+    display: inline-block;
+    transition: all .4s;
+    box-sizing: border-box;
+} */
+
+#wrap>.con2>.base>.con2_btn>li {
+    position: relative;
+    width: 50px;
+    height: 44px;
+    cursor: pointer;
+}
+
+#wrap>.con2>.base>.con2_btn>li span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: 0.8s;
+}
+
+#wrap>.con2>.base>.con2_btn>li>a span:nth-of-type(1) {
+    
+    -webkit-transform : rotate(45deg);
+    transform : rotate(45deg);
+}
+
+#wrap>.con2>.base>.con2_btn>li>a span:nth-of-type(2) {
+    -webkit-transform : rotate(-45deg);
+    transform : rotate(-45deg);
+}
+
+#wrap>.con2>.base>.con2_btn>li:hover>a span:nth-of-type(1){
+    transform : rotate(90deg);
+}
+
+#wrap>.con2>.base>.con2_btn>li:hover>a span:nth-of-type(2){
+    transform : rotate(0deg);
+}
+
+
+
+/* .menu-trigger.type12:after {
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    display : block;
+    content : '';
+    width : 84px;
+    height : 84px;
+    margin : -45px 0 0 -45px;
+    border-radius : 50%;
+    border : 4px solid transparent;
+    transition : all .75s;
+}
+.menu-trigger.active-12 span:nth-of-type(1) {
+    -webkit-transform : translateY(20px) rotate(-45deg);
+    transform : translateY(20px) rotate(-45deg);
+}
+.menu-trigger.active-12 span:nth-of-type(2) {
+    left : 60%;
+    opacity : 0;
+    -webkit-animation : active-menu-bar12-01 .8s forwards;
+    animation : active-menu-bar12-01 .8s forwards;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wrap>.con3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 300%;
+    left: 0;
+    background: url(../img/con3.jpg) no-repeat;
+    background-size: cover;
+    transition: 0.8s;
+}
+
+#wrap>.con3>.base{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#wrap>.con3>.base>li{
+    width: 250px;
+    height: 250px;
+    box-shadow: 10px 10px 10px #000;
+}
+
+#wrap>.con3>.base>li:nth-of-type(1){
+    position: absolute;
+    top: 70%;
+    left: 50%;
+
+    background: url(../img/con3-1.jpg) no-repeat;
+    background-size: cover;
+    z-index: 10;
+}
+
+#wrap>.con3>.base>li:nth-of-type(2){
+    position: absolute;
+    top: 80%;
+    left: 65%;
+
+    background: url(../img/con3-2.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 5;
+}
+
+#wrap>.con3>.base>li:nth-of-type(3){
+    position: absolute;
+    top: 45%;
+    left: 85%;
+
+    background: url(../img/con3-3.jpg) no-repeat;
+    background-size: cover;
+}
+
+#wrap>.con3>.base>li:nth-of-type(4){
+    position: absolute;
+    top: 35%;
+    left: 30%;
+
+    background: url(../img/con3-4.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#wrap>.con3>.base>li:nth-of-type(5){
+    position: absolute;
+    top: 85%;
+    left: 10%;
+
+    background: url(../img/con3-5.jpg) no-repeat center;
+    background-size: cover;
+}
+
