@@ -1,0 +1,102 @@
+.footerWrap{
+    width: 100%;
+    padding: 10px 0 80px;
+}
+
+#footer{
+    width: 1240px;
+    margin: 0 auto;
+    border-top: 1px solid #f2b705;
+}
+
+#footer>div{
+    float: left;
+    width: 33.3333%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#footer>div>h2{
+    margin-bottom: 10px;
+}
+
+#footer>div>p{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#footer>.footerbox1>.logo{
+    margin-bottom: 10px;
+}
+
+#footer>.footerbox1>h2{
+    font-size: 1.5rem;
+    padding: 0 0 10px;
+    position: relative;
+}
+
+#footer>.footerbox1>h2::after{
+    display: block;
+    content: "";
+    width: 30%;
+    height: 1px;
+    background: #f2b705;
+    position: absolute;
+    top: 102%;
+    left: 0;
+}
+
+
+
+
+
+#footer>.footerbox2>p{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#footer>.footerbox2>.sns{
+    width: 100%;
+}
+
+#footer>.footerbox2>.sns>li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+#footer>.footerbox2>.sns>li>a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #f2b705;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+#footer>.footerbox2>.sns>li:nth-of-type(3)>a{
+    line-height: 5px;
+    font-size: 4rem;
+    font-family: 'Oswald' ;
+}
+
+#footer>.footerbox2>.sns>li:nth-of-type(2)>a{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+
+#footer>.footerbox3>.footergnb>li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
