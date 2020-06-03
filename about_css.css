@@ -52,6 +52,7 @@ body {
 }
 #about_main .about_main_txt p span{
     position: relative; left: 0; top: 100px;
+    overflow: none;
 }
 #about_main .about_main_txt p:nth-child(1) span{
     transition: .5s all ease-in-out;
