@@ -15,7 +15,7 @@ body {
     overflow: hidden;
 }
 .about_main_box{
-    position: relative; left: 50%; top: 50%;
+    position: relative; left: 30%; top: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
 }
@@ -46,6 +46,8 @@ body {
     display: inline-block;
     vertical-align: middle;
     margin-left: 95px;
+    position: absolute;
+    z-index: 50;
 }
 #about_main .about_main_txt p{
     overflow: hidden;
