@@ -13,6 +13,8 @@ body {
     width: 100%; height: 100vh;
     background: #1e1e1e;
     overflow: hidden;
+    position: absolute;
+    z-index: 1;
 }
 .about_main_box{
     position: relative; left: 50%; top: 50%;
@@ -46,8 +48,6 @@ body {
     display: inline-block;
     vertical-align: middle;
     margin-left: 95px;
-    z-index: 50;
-    position: absolute;
 }
 #about_main .about_main_txt p{
     overflow: hidden;
