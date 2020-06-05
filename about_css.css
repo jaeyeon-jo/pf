@@ -47,6 +47,7 @@ body {
     vertical-align: middle;
     margin-left: 95px;
     z-index: 50;
+    position: absolute;
 }
 #about_main .about_main_txt p{
     overflow: hidden;
